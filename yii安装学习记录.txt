@@ -1,0 +1,58 @@
+基础模板的yii2使用
+创建数据库
+创建表
+设置db连接数据库
+创建model，controller
+______________
+安装高级应用模板的yii2
+1、复制文件到www后，执行php init初始化环境
+2、创建数据库，并在common的main-local.php中配置连接
+3、执行php yii migrate 进行数据迁移
+
+———————————————
+自定义form的字段
+1、修改数据库，根据需要创建字段
+2、修改model中的rules
+3、修改form的视图页
+4、修改model中执行保存到数据库中的操作
+
+————————————————
+下拉列表DropDownList显示
+修改_form.php中的字段
+<?= $form->field($model, 'company_id')->dropDownList(
+	ArrayHelper::map(Companines::find()->all(), 'company_id', 'company_name'),
+	['prompt' => 'Select Company'] )?>
+//分类选择可以在map中添加第三个字段
+
+—————————————————
+关联字段的显示及搜索
+1、修改视图文件
+[
+	'attribute'=>'原字段',
+    'value'=>'关联表名.关联字段',
+],
+2、视情况修改model中的rules （如byIdFindName,修改intger id 为 string id）
+3、修改Search
+$query = 表名::find();
+$query->joinWith('关联表名');
+4、query->andFilterWhere(['like', '关联表名.关联字段', $this->'原字段'])
+
+————————————————
+使用gii创建新模块modules
+1、创建modules文件夹（修改权限）
+2、在gii中生成新的Moduel
+Module Class：backend\modules\settings\Settings
+Module ID：settings
+
+————————————————
+安装yii2扩展，修改样式
+1、安装Composer 
+进入项目的根目录，执行 curl -sS https://getcomposer.org/installer | php
+sudo php composer.phar require "扩展"
+2、使用扩展，根据使用说明进行引用
+
+————————————————
+使用Pjax实现局部自动刷新
+<?php Pjax::begin(); ?>
+<?php Pjax::end(); ?>
+
