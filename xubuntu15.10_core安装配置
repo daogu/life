@@ -1,0 +1,32 @@
+1、打开Software & Updates ,选择最快的源更新
+2、安装浏览器（推荐chrome）
+wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb
+sudo dpkg -i google-chrome-unstable_current_amd64.deb
+sudo apt-get install -f
+3、更换目录的中文名为英文
+export LANG=en_US
+xdg-user-dirs-gtk-update
+export LANG=zh_CN
+4、安装中文输入法
+sudo apt-get install fcitx-googlepinyin fcitx-module-cloudpinyin
+注销后重新进入桌面即可使用中文输入法
+5、图标美化
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle
+6、安装百度云客户端
+https://github.com/LiuLang/bcloud-packages
+unzip bcloud-packages-master.zip
+sudo dpkg -i bcloud-packages-master/bcloud_3.8.1-1_all.deb
+sudo apt-get install -f
+7、安装下载工具Uget
+sudo add-apt-repository ppa:plushuang-tw/uget-stable
+sudo apt-get update
+sudo apt-get install uget aria2
+分类设置最大连接数为16,下载设置插件为curl+aria2
+8、安装视频播放器mpv
+sudo apt-get install mpv
+9、安装音乐播放器deadbeef
+sudo add-apt-repository ppa:starws-box/deadbeef-player
+sudo apt-get update
+sudo apt-get install deadbeef
