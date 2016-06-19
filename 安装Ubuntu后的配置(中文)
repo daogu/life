@@ -1,0 +1,38 @@
+安装Ubuntu 16.04后的配置
+1、更换用户目录下的中文为英文
+export LANG=en_us
+xdg-user-dirs-gtk-update
+export LANG=zh_CN.UTF-8
+2、卸载部分无用软件
+sudo apt purge xxxx
+3、选择合适的源，更新系统
+打开软件和更新，在对应地区选择最佳服务器
+更新源    sudo apt update
+更新软件  sudo apt upgrade
+4、修改系统部分默认设置
+外观里调整启动器图标大小、关闭蓝牙
+更换壁纸、输入法皮肤、云拼音设置为百度
+修改终端配置背景为主题透明度
+5、安装shadowsocks，配合pac设置全局代理
+github项目shadowsocks-qt5、gfw-whitelist
+sudo add-apt-repository ppa:hzwhuang/ss-qt5
+https://github.com/breakwa11/gfw_whitelist
+6、安装chrome浏览器
+添加chrome源或者直接下载chrome的deb包
+中文字体显示发虚，chrome-设置-高级设置-自定义字体
+前三项字体设置为San 或者 Noto-Sans-Cjk-SC
+7、安装vim git bcloud deadbeef mpv等必备软件
+sudo apt install vim git
+bcloud安装包地址：https://github.com/LiuLang/bcloud-packages
+deadbeef下载地址：http://deadbeef.sourceforge.net/download.html
+mpv第三方ppa源：	 sudo add-apt-repository ppa:djcj/vapoursynth
+8、mpv播放器配置
+# Video
+vo=vdpau:interpolation:icc-profile-auto
+video-sync=display-resample
+hwdec=auto
+display-fps=60
+# 分段视频合并播放，解决中间卡顿的问题
+merge-files=yes
+#字幕
+sub-auto=fuzzy
