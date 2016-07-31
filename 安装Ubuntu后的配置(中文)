@@ -17,15 +17,17 @@ sudo apt purge xxxx
 github项目shadowsocks-qt5、gfw-whitelist
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 https://github.com/breakwa11/gfw_whitelist
-6、安装chrome浏览器
-添加chrome源或者直接下载chrome的deb包
+6、浏览器
+chrome：添加chrome源或者直接下载chrome的deb包
 中文字体显示发虚，chrome-设置-高级设置-自定义字体
 前三项字体设置为San 或者 Noto-Sans-Cjk-SC
+firefox：添加firefox源获取最新测试版(视个人喜好)
+sudo add-apt-repository ppa:mozillateam/firefox-next
 7、安装vim git bcloud deadbeef mpv等必备软件
 sudo apt install vim git
 bcloud安装包地址：https://github.com/LiuLang/bcloud-packages
 deadbeef下载地址：http://deadbeef.sourceforge.net/download.html
-mpv第三方ppa源：	 sudo add-apt-repository ppa:djcj/vapoursynth
+mpv第三方ppa源：sudo add-apt-repository ppa:djcj/vapoursynth
 8、mpv播放器配置
 # Video
 vo=vdpau:interpolation:icc-profile-auto
