@@ -1,4 +1,4 @@
-var wall_proxy = "SOCKS5 127.0.0.1:1080;SOCKS 127.0.0.1:1080;";
+var wall_proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080;";
 var nowall_proxy = "DIRECT;";
 var direct = "DIRECT;";
 var ip_proxy = "DIRECT;";
@@ -126,7 +126,6 @@ var white_domains = {"am":{
 "mzsky":1,
 "n21":1,
 "nandagang":1,
-"nga"1,
 "pingyin":1,
 "pinjie":1,
 "pp":1,
@@ -5494,6 +5493,7 @@ var white_domains = {"am":{
 "nfcmag":1,
 "nfrencai":1,
 "ngjy":1,
+"nga":1,
 "nh365":1,
 "nhaidu":1,
 "nhcsw":1,
@@ -9695,6 +9695,8 @@ function isInDomains(domain_dict, host) {
 	}
 }
 function FindProxyForURL(url, host) {
+	url=""+url;
+	host=""+host;
 	if ( isPlainHostName(host) === true ) {
 		return direct;
 	}
