@@ -5207,6 +5207,7 @@ var white_domains = {"am":{
 "mamacn":1,
 "manggojia":1,
 "mangocity":1,
+"manmanbuy":1,
 "manmankan":1,
 "manyou":1,
 "manzuo":1,
