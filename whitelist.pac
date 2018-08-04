@@ -5896,6 +5896,7 @@ var white_domains = {"am":{
 "qihoo":1,
 "qihucdn":1,
 "qihuiwang":1,
+"qihures":1,
 "qikan":1,
 "qilibali":1,
 "qimbulak":1,
