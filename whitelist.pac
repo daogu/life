@@ -7069,6 +7069,7 @@ var white_domains = {"am":{
 "wanguan":1,
 "wangye":1,
 "wangyouhu":1,
+"wangyuan":1,
 "wanjidao":1,
 "wanjingchina":1,
 "wanku":1,
