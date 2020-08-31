@@ -8050,6 +8050,7 @@ var white_domains = {"am":{
 "zhengzhoubus":1,
 "zhengzhoudongyang":1,
 "zhengzhoulvxing":1,
+"zhenniupay":1,
 "zhenpin":1,
 "zheyibu":1,
 "zhgnews":1,
