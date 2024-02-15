@@ -345,6 +345,23 @@ http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="N25" tvg-name="NewTV超级电视剧" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/NewTV25.png" group-title="NewTV",NewTV超级电视剧
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
 
+#iHOT系列/
+#EXTINF:-1 tvg-id="i01" tvg-name="iHOT爱悬疑" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/IHOT16/IHOT16.jpg?1" group-title="iHOT系列",iHOT爱悬疑
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000050630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000050630&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="i02" tvg-name="iHOT爱谍战" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/IHOT16/IHOT16.jpg?1" group-title="iHOT系列",iHOT爱谍战
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000070630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000070630&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="i03" tvg-name="iHOT爱动漫" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/IHOT16/IHOT16.jpg?1" group-title="iHOT系列",iHOT爱动漫
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000280630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000280630&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="i04" tvg-name="iHOT爱江湖" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/IHOT16/IHOT16.jpg?1" group-title="iHOT系列",iHOT爱江湖
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000110630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000110630&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="i05" tvg-name="iHOT爱经典" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/IHOT16/IHOT16.jpg?1" group-title="iHOT系列",iHOT爱经典
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000060630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000060630&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="i06" tvg-name="iHOT爱美食" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/IHOT16/IHOT16.jpg?1" group-title="iHOT系列",iHOT爱美食
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000120630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000120630&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="i07" tvg-name="iHOT爱喜剧" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/IHOT16/IHOT16.jpg?1" group-title="iHOT系列",iHOT爱喜剧
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000010630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000010630&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="i08" tvg-name="iHOT爱院线" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/IHOT16/IHOT16.jpg?1" group-title="iHOT系列",iHOT爱院线
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000030630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3
 
 #咪咕体育/44个频道
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播1" tvg-logo="https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/MG.png" group-title="咪咕",咪咕直播4K-1
