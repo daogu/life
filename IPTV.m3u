@@ -222,6 +222,8 @@ https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
 http://198.16.100.90:8278/pearl_twn/playlist.m3u8?tid=MC6C7041327570413275&ct=19226&tsum=681972baf66d69caf7cccc92a90e5aad
 #EXTINF:-1 tvg-id="D06" tvg-name="星空卫视" tvg-logo="http://live.cooltv.top/logo/startv.png" group-title="国际",星空卫视
 http://lhq-cctv.8866.org:18181/tsfile/live/1208_1.m3u8
+#EXTINF:-1 tvg-id="D06" tvg-name="美亚电影台" tvg-logo="http://live.cooltv.top/logo/startv.png" group-title="国际",美亚电影台
+https://epg.pw/stream/f756fd481d421b861ac431717c303e200b697ff47eb789065645f8b61f67a264.m3u8
 
 #湖南/11个频道
 #EXTINF:-1 tvg-id="E01" tvg-name="茶频道" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/chapd.png" group-title="湖南",茶频道
