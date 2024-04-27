@@ -98,9 +98,9 @@ http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://epg.112114.xyz/logo/甘肃卫视.png" group-title="•卫视「IPV6」",甘肃卫视「IPV6」
 http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225754/1.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" group-title="•数字「IPV6」",凤凰中文「IPV6」
-https://play-flive.ifeng.com/live/06OLEGEGM4G.flv
+http://183.204.13.237/cee7354084e908e7d71a99f88ecd0c61.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="•数字「IPV6」",凤凰资讯「IPV6」
-https://play-flive.ifeng.com/live/06OLEEWQKN4.flv
+http://183.204.13.237/cee7354084e908e7d71a99f88ecd0c61.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 #EXTINF:-1 tvg-name="纪实人文" group-title="•数字「IPV6」",纪实人文「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
 #EXTINF:-1 tvg-name="纪实科教" group-title="•数字「IPV6」",纪实科教「IPV6」
