@@ -133,6 +133,18 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
 #EXTINF:-1 tvg-name="东北热剧" group-title="•数字「IPV6」",NewTv东北热剧「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
+#EXTINF:-1 tvg-name="兵器科技" tvg-logo="https://epg.112114.xyz/logo/cctv17.png" group-title="•数字「IPV6」",兵器科技
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077907bdcd/1.m3u8?m3u8_level=2
+#EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://epg.112114.xyz/logo/cctv17.png" group-title="•数字「IPV6」",第一剧场
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077f5ca035/1.m3u8?m3u8_level=2
+#EXTINF:-1 tvg-name="风云足球" tvg-logo="https://epg.112114.xyz/logo/cctv17.png" group-title="•数字「IPV6」",风云足球
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077160c04a/1.m3u8?m3u8_level=2
+#EXTINF:-1 tvg-name="世界地理" tvg-logo="https://epg.112114.xyz/logo/cctv17.png" group-title="•数字「IPV6」",世界地理
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077a61f4f3/1.m3u8?m3u8_level=2
+#EXTINF:-1 tvg-name="央视台球" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/央视台球-light.png" group-title="•数字「IPV6」",央视台球
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380775932cff/1.m3u8?m3u8_level=2
+#EXTINF:-1 tvg-name="央视高网" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/央视高网-light.png" group-title="•数字「IPV6」",央视高网
+http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807743b61bb/1.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-name="哒啵赛事" group-title="•数字「IPV6」",NewTv哒啵赛事「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
 #EXTINF:-1 tvg-name="欢乐剧场" group-title="•数字「IPV6」",NewTv欢乐剧场「IPV6」
